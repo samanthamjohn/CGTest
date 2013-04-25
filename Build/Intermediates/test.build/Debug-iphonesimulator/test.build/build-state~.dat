@@ -1,0 +1,356 @@
+Ttest
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/Info.plist test/test-Info.plist
+cProcessPCH /Users/samanthajohn/Development/iOS/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-bdnmyfzifmlpoyggbrhgucgklyvh/test-Prefix.pch.pth test/test-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/main.o /Users/samanthajohn/Development/iOS/test/test/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/AppDelegate.o /Users/samanthajohn/Development/iOS/test/test/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/ViewController.o /Users/samanthajohn/Development/iOS/test/test/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/test normal i386
+cGenerateDSYMFile /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app.dSYM /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/test
+cCopyStringsFile /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings
+cCpResource test/Default.png Build/Products/Debug-iphonesimulator/test.app/Default.png
+cCpResource test/Default@2x.png Build/Products/Debug-iphonesimulator/test.app/Default@2x.png
+cCpResource test/Default-568h@2x.png Build/Products/Debug-iphonesimulator/test.app/Default-568h@2x.png
+cCompileXIB /Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPhone.xib
+cCompileXIB /Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPad.xib
+cCpResource test/alien_0.png Build/Products/Debug-iphonesimulator/test.app/alien_0.png
+cTouch /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c00000000516DD6A90000000000000110
+t1366152873
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510BDBB10000000000228FE0
+t1359731633
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000510BDBB300000000003DDFA0
+t1359731635
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000510BDBB200000000000015F7
+t1359731634
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000510BDBB50000000000000E8D
+t1359731637
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000510BDBB70000000000AB6230
+t1359731639
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c00000000510BDBC30000000000001B73
+t1359731651
+s7027
+
+N/Users/samanthajohn/Development/iOS/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-bdnmyfzifmlpoyggbrhgucgklyvh/test-Prefix.pch.pth
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/ViewController.o
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/test.LinkFileList
+c000000005179AB3E000000000000019D
+t1366928190
+s413
+
+N/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app.dSYM
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/Default.png
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/Default@2x.png
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/Info.plist
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/PkgInfo
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/alien_0.png
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/en.lproj/ViewController_iPad.nib
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/en.lproj/ViewController_iPhone.nib
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/test
+t2
+s0
+
+N/Users/samanthajohn/Development/iOS/test/test/AppDelegate.m
+c000000005179AA580000000000000A68
+t1366927960
+s2664
+
+N/Users/samanthajohn/Development/iOS/test/test/Default-568h@2x.png
+c000000005062328600000000000048A2
+t1348612742
+s18594
+
+N/Users/samanthajohn/Development/iOS/test/test/Default.png
+c0000000050623286000000000000198C
+t1348612742
+s6540
+
+N/Users/samanthajohn/Development/iOS/test/test/Default@2x.png
+c00000000506232860000000000003EEB
+t1348612742
+s16107
+
+N/Users/samanthajohn/Development/iOS/test/test/ViewController.m
+c000000005179AB2F00000000000004FE
+t1366928175
+s1278
+
+N/Users/samanthajohn/Development/iOS/test/test/alien_0.png
+c000000005175492F0000000000002AE5
+t1366640943
+s10981
+
+N/Users/samanthajohn/Development/iOS/test/test/en.lproj/InfoPlist.strings
+c000000005179AA58000000000000002D
+t1366927960
+s45
+
+N/Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPad.xib
+c000000005179AA580000000000001489
+t1366927960
+s5257
+
+N/Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPhone.xib
+c000000005179AA580000000000001782
+t1366927960
+s6018
+
+N/Users/samanthajohn/Development/iOS/test/test/main.m
+c000000005179AA580000000000000151
+t1366927960
+s337
+
+N/Users/samanthajohn/Development/iOS/test/test/test-Prefix.pch
+c000000005179AA580000000000000137
+t1366927960
+s311
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+Ntest/test-Info.plist
+c000000005179AA5800000000000005B4
+t1366927960
+s1460
+
+CBuild AST from /Users/samanthajohn/Development/iOS/test/test/AppDelegate.m
+r0
+
+CBuild AST from /Users/samanthajohn/Development/iOS/test/test/ViewController.m
+r0
+
+CBuild AST from /Users/samanthajohn/Development/iOS/test/test/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4bca21bee229b741^ca373bbee229b741^---0#1#0#--18"Check dependencies36"4A7FCCC0-BE2F-49C6-8A75-6240874384D5-
+
+CCompileC Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/AppDelegate.o /Users/samanthajohn/Development/iOS/test/test/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388620990.727569
+e388620990.880931
+r1
+xCompileC
+xBuild/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/AppDelegate.o
+x/Users/samanthajohn/Development/iOS/test/test/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/samanthajohn/Development/iOS/test/test/AppDelegate.m965fbabee229b741^82aae1bee229b741^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/samanthajohn/Development/iOS/test/test/AppDelegate.m0000000000000000^3508"CompileC Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/AppDelegate.o test/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/samanthajohn/Development/iOS/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-generated-files.hmap -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-own-target-headers.hmap -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-all-target-headers.hmap -iquote /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-project-headers.hmap -I/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/DerivedSources/i386 -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/DerivedSources -F/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator -include /Users/samanthajohn/Development/iOS/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-bdnmyfzifmlpoyggbrhgucgklyvh/test-Prefix.pch -MMD -MT dependencies -MF /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/AppDelegate.dia -c /Users/samanthajohn/Development/iOS/test/test/AppDelegate.m -o /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/AppDelegate.o36"AF4A93B2-A71F-432C-9956-8E2F7578ED8C-
+
+CCompileC Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/ViewController.o /Users/samanthajohn/Development/iOS/test/test/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388620990.727579
+e388620990.881609
+r1
+xCompileC
+xBuild/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/ViewController.o
+x/Users/samanthajohn/Development/iOS/test/test/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/samanthajohn/Development/iOS/test/test/ViewController.m:23:18: warning: unused variable 'context' [-Wunused-variable]
+o    CGContextRef context = UIGraphicsGetCurrentContext();
+o                 ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/samanthajohn/Development/iOS/test/test/ViewController.m0b60babee229b741^e1b3e1bee229b741^-223"/Users/samanthajohn/Development/iOS/test/test/ViewController.m:23:18: warning: unused variable 'context' [-Wunused-variable]    CGContextRef context = UIGraphicsGetCurrentContext();                 ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Unused variable 'context'-388620990#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file://localhost/Users/samanthajohn/Development/iOS/test/test/ViewController.m0000000000000000^22#17#22#17#481#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/samanthajohn/Development/iOS/test/test/ViewController.m0000000000000000^3526"CompileC Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/ViewController.o test/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/samanthajohn/Development/iOS/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-generated-files.hmap -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-own-target-headers.hmap -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-all-target-headers.hmap -iquote /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-project-headers.hmap -I/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/DerivedSources/i386 -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/DerivedSources -F/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator -include /Users/samanthajohn/Development/iOS/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-bdnmyfzifmlpoyggbrhgucgklyvh/test-Prefix.pch -MMD -MT dependencies -MF /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/ViewController.dia -c /Users/samanthajohn/Development/iOS/test/test/ViewController.m -o /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/ViewController.o36"690B35DA-023D-4744-9210-27580625C0C8-
+
+CCompileC Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/main.o /Users/samanthajohn/Development/iOS/test/test/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388620990.727506
+e388620990.844337
+r1
+xCompileC
+xBuild/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/main.o
+x/Users/samanthajohn/Development/iOS/test/test/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/samanthajohn/Development/iOS/test/test/main.m855fbabee229b741^1426d8bee229b741^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/samanthajohn/Development/iOS/test/test/main.m0000000000000000^3466"CompileC Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/main.o test/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/samanthajohn/Development/iOS/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-generated-files.hmap -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-own-target-headers.hmap -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-all-target-headers.hmap -iquote /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-project-headers.hmap -I/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/DerivedSources/i386 -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/DerivedSources -F/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator -include /Users/samanthajohn/Development/iOS/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-bdnmyfzifmlpoyggbrhgucgklyvh/test-Prefix.pch -MMD -MT dependencies -MF /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/main.dia -c /Users/samanthajohn/Development/iOS/test/test/main.m -o /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/main.o36"35F8AFA5-6740-4A52-AE7C-B7896093CA94-
+
+CCompileXIB /Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPad.xib
+s388620991.053286
+e388620992.244056
+r1
+xCompileXIB
+x/Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPad.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compiling /Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPad.xib8e040ebfe229b741^077c3ec0e229b741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPad.xib0000000000000000^935"CompileXIB test/en.lproj/ViewController_iPad.xib    cd /Users/samanthajohn/Development/iOS/test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/en.lproj/ViewController_iPad.nib /Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPad.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"BA437D27-8912-4166-B3B8-2B66363B834A-
+
+CCompileXIB /Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPhone.xib
+s388620991.053262
+e388620992.254198
+r1
+xCompileXIB
+x/Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPhone.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compiling /Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPhone.xibc6e00dbfe229b741^4d1441c0e229b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPhone.xib0000000000000000^941"CompileXIB test/en.lproj/ViewController_iPhone.xib    cd /Users/samanthajohn/Development/iOS/test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/en.lproj/ViewController_iPhone.nib /Users/samanthajohn/Development/iOS/test/test/en.lproj/ViewController_iPhone.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"BC85F5B2-0756-44A6-AE76-58E046CB92CC-
+
+CCopyStringsFile /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings
+s388620991.049806
+e388620991.150588
+r1
+xCopyStringsFile
+x/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/en.lproj/InfoPlist.strings
+xtest/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy test/en.lproj/InfoPlist.strings33a50dbfe229b741^22c627bfe229b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/samanthajohn/Development/iOS/test/test/en.lproj/InfoPlist.strings0000000000000000^585"CopyStringsFile Build/Products/Debug-iphonesimulator/test.app/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings    cd /Users/samanthajohn/Development/iOS/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/en.lproj -- test/en.lproj/InfoPlist.strings36"1E78D5F4-7074-4195-A72D-3797EECF59E7-
+
+CCpResource test/Default-568h@2x.png Build/Products/Debug-iphonesimulator/test.app/Default-568h@2x.png
+s388620991.053248
+e388620991.084509
+r1
+xCpResource
+xtest/Default-568h@2x.png
+xBuild/Products/Debug-iphonesimulator/test.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphonesimulator/test.app/Default-568h@2x.pnge6cd0dbfe229b741^b15126bfe229b741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/Default-568h@2x.png000000000080d041^616"CpResource "test/Default-568h@2x.png" "Build/Products/Debug-iphonesimulator/test.app/Default-568h@2x.png"    cd /Users/samanthajohn/Development/iOS/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/samanthajohn/Development/iOS/test/test/Default-568h@2x.png" /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app36"B6A836DE-7D33-48F5-A0CE-394F4E2FCC05-
+
+CCpResource test/Default.png Build/Products/Debug-iphonesimulator/test.app/Default.png
+s388620991.052832
+e388620991.083340
+r1
+xCpResource
+xtest/Default.png
+xBuild/Products/Debug-iphonesimulator/test.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Build/Products/Debug-iphonesimulator/test.app/Default.png82aa0dbfe229b741^664f26bfe229b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/Default.png000000000080d041^586"CpResource test/Default.png Build/Products/Debug-iphonesimulator/test.app/Default.png    cd /Users/samanthajohn/Development/iOS/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/samanthajohn/Development/iOS/test/test/Default.png /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app36"8013DA3F-32CE-4361-8E6F-29619324A3C0-
+
+CCpResource test/Default@2x.png Build/Products/Debug-iphonesimulator/test.app/Default@2x.png
+s388620991.053012
+e388620991.087321
+r1
+xCpResource
+xtest/Default@2x.png
+xBuild/Products/Debug-iphonesimulator/test.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Build/Products/Debug-iphonesimulator/test.app/Default@2x.png22df0dbfe229b741^ef5626bfe229b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/Default@2x.png000000000080d041^601"CpResource "test/Default@2x.png" "Build/Products/Debug-iphonesimulator/test.app/Default@2x.png"    cd /Users/samanthajohn/Development/iOS/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/samanthajohn/Development/iOS/test/test/Default@2x.png" /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app36"0A9D9F2C-8C57-4E4B-8FDD-89B27ADBC456-
+
+CCpResource test/alien_0.png Build/Products/Debug-iphonesimulator/test.app/alien_0.png
+s388620991.053609
+e388620991.089357
+r1
+xCpResource
+xtest/alien_0.png
+xBuild/Products/Debug-iphonesimulator/test.app/alien_0.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Build/Products/Debug-iphonesimulator/test.app/alien_0.png0bec0dbfe229b741^815c26bfe229b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/alien_0.png000000000080d041^586"CpResource test/alien_0.png Build/Products/Debug-iphonesimulator/test.app/alien_0.png    cd /Users/samanthajohn/Development/iOS/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/samanthajohn/Development/iOS/test/test/alien_0.png /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app36"6DE3E0BE-48D7-4875-9BA4-40C11822405E-
+
+CGenerateDSYMFile /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app.dSYM /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/test
+s388620990.983707
+e388620991.032261
+r1
+xGenerateDSYMFile
+x/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app.dSYM
+x/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/test
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generate /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app.dSYMf358ffbee229b741^494a26bfe229b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app.dSYM000000000080d041^649"GenerateDSYMFile Build/Products/Debug-iphonesimulator/test.app.dSYM Build/Products/Debug-iphonesimulator/test.app/test    cd /Users/samanthajohn/Development/iOS/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/test -o /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app.dSYM36"39738694-2B53-4D4E-8391-A4B9D39E6185-
+
+CLd /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/test normal i386
+s388620990.888138
+e388620990.976843
+r1
+xLd
+x/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/test
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/test1c07e6bee229b741^4d491ebfe229b741^---0#0#0#--1175"Ld Build/Products/Debug-iphonesimulator/test.app/test normal i386    cd /Users/samanthajohn/Development/iOS/test    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator -F/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator -filelist /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/Objects-normal/i386/test.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/test36"8F81AA8C-F269-4535-8B98-8FFD4B676A41-
+
+CProcessInfoPlistFile /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/Info.plist test/test-Info.plist
+s388620990.247435
+e388620990.273200
+r1
+xProcessInfoPlistFile
+x/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/Info.plist
+xtest/test-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process test/test-Info.plistd9943fbee229b741^85ea46bee229b741^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/samanthajohn/Development/iOS/test/test/test-Info.plist0000000000000000^662"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/test.app/Info.plist test/test-Info.plist    cd /Users/samanthajohn/Development/iOS/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility test/test-Info.plist -genpkginfo /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app/Info.plist36"453185B4-B7BB-40CD-B5FB-2286752900A7-
+
+CProcessPCH /Users/samanthajohn/Development/iOS/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-bdnmyfzifmlpoyggbrhgucgklyvh/test-Prefix.pch.pth test/test-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388620990.280829
+e388620990.720493
+r1
+xProcessPCH
+x/Users/samanthajohn/Development/iOS/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-bdnmyfzifmlpoyggbrhgucgklyvh/test-Prefix.pch.pth
+xtest/test-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile test/test-Prefix.pch190248bee229b741^a471b8bee229b741^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/samanthajohn/Development/iOS/test/test/test-Prefix.pch0000000000000000^3379"ProcessPCH Build/Intermediates/PrecompiledHeaders/test-Prefix-bdnmyfzifmlpoyggbrhgucgklyvh/test-Prefix.pch.pth test/test-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/samanthajohn/Development/iOS/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-generated-files.hmap -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-own-target-headers.hmap -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-all-target-headers.hmap -iquote /Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/test-project-headers.hmap -I/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/DerivedSources/i386 -I/Users/samanthajohn/Development/iOS/test/Build/Intermediates/test.build/Debug-iphonesimulator/test.build/DerivedSources -F/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/samanthajohn/Development/iOS/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-bdnmyfzifmlpoyggbrhgucgklyvh/test-Prefix.pch.dia -c /Users/samanthajohn/Development/iOS/test/test/test-Prefix.pch -o /Users/samanthajohn/Development/iOS/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-bdnmyfzifmlpoyggbrhgucgklyvh/test-Prefix.pch.pth -MMD -MT dependencies -MF /Users/samanthajohn/Development/iOS/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-bdnmyfzifmlpoyggbrhgucgklyvh/test-Prefix.pch.d36"737B7B54-8AB1-4808-9CF2-AD4813F3B0EC-
+
+CProcessPCH /Users/samanthajohn/Library/Developer/Xcode/DerivedData/test-eyefybyynyocpialvonrekuygfrf/Index/PrecompiledHeaders/test-Prefix-grbrqdotqyscirfihgikiqsvdqcz_ast/test-Prefix.pch.pth test/test-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app
+s388620992.263238
+e388620992.273790
+r1
+xTouch
+x/Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Touch /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app138043c0e229b741^5b2746c0e229b741^---0#0#0#--404"Touch Build/Products/Debug-iphonesimulator/test.app    cd /Users/samanthajohn/Development/iOS/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/samanthajohn/Development/iOS/test/Build/Products/Debug-iphonesimulator/test.app36"13A88771-4BF7-4718-899A-20A89FD08361-
+
