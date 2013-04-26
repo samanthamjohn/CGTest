@@ -9,7 +9,13 @@
 #import "ViewController.h"
 #import <QuartzCore/QuartzCore.h>
 @interface ViewController ()
-@property (nonatomic) CGLayerRef layerRef;
+@property (nonatomic, strong) UIView *cupcakeView;
+@property (nonatomic) CGFloat angle;
+@property (nonatomic) CGFloat scale;
+@property (nonatomic) CGFloat translation;
+@property (nonatomic) CGPoint startingPoint;
+@property (nonatomic) CGPoint currentPoint;
+@property (nonatomic, strong) NSMutableArray *points;
 @end
 
 @implementation ViewController
@@ -17,45 +23,145 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-
-
-    self.layerRef =  CGLayerCreateWithContext(UIGraphicsGetCurrentContext(), CGSizeMake(900, 900), NULL);
-    UIGraphicsPushContext(CGLayerGetContext(self.layerRef));
-    CGContextTranslateCTM(CGLayerGetContext(self.layerRef), 300, 300);
-
+    self.view.frame = [UIScreen mainScreen].bounds;
+    self.view.backgroundColor = [UIColor blackColor];
+    self.angle = 0;
+    self.scale = 1;
+    self.translation = 0;
+    self.startingPoint = CGPointMake(150, 150);
+    self.currentPoint = self.startingPoint;
+    self.cupcakeView = [[UIView alloc] initWithFrame:CGRectMake(0, 100, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame) - 100)];
+    self.cupcakeView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:self.cupcakeView];
+    self.points = [NSMutableArray arrayWithObject:[NSValue valueWithCGPoint:self.startingPoint]];
+    [self redraw];
     
-    CGContextRotateCTM(UIGraphicsGetCurrentContext(), M_PI/2);
-//    CGAffineTransform transform = CGAffineTransformMakeRotation(M_PI/2);
-    [self drawCupcake];
-    UIGraphicsPopContext();
-    
-    
-    UIGraphicsBeginImageContextWithOptions([self.view bounds].size, YES, 0);
-
-    [self drawCupcake];
-    CGContextDrawLayerAtPoint(UIGraphicsGetCurrentContext(), CGPointMake(100, 300), self.layerRef);
-    
-    self.view.layer.contents = (id) UIGraphicsGetImageFromCurrentImageContext().CGImage;
-        UIGraphicsEndImageContext();
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [button setTitle:@"rotate" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(rotate) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
-    button.frame = CGRectMake(200, 200, 200, 50);
+    button.frame = CGRectMake(25, 0, 200, 50);
+
+    UIButton *scaleButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [scaleButton setTitle:@"scale up" forState:UIControlStateNormal];
+    [scaleButton addTarget:self action:@selector(scaleUpCupcake) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:scaleButton];
+    scaleButton.frame = CGRectMake(250, 0, 100, 44);
+    
+    UIButton *scaleDownButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [scaleDownButton setTitle:@"scale down" forState:UIControlStateNormal];
+    [scaleDownButton addTarget:self action:@selector(scaleDownCupcake) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:scaleDownButton];
+    scaleDownButton.frame = CGRectMake(250, 50, 100, 44);
+    
+    UIButton *moveLeftButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [moveLeftButton setTitle:@"move left" forState:UIControlStateNormal];
+    [moveLeftButton addTarget:self action:@selector(moveLeft) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:moveLeftButton];
+    moveLeftButton.frame = CGRectMake(475, 0, 100, 44);
+    
+    UIButton *moveRightButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [moveRightButton setTitle:@"move right" forState:UIControlStateNormal];
+    [moveRightButton addTarget:self action:@selector(moveRight) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:moveRightButton];
+    moveRightButton.frame = CGRectMake(475, 50, 100, 44);
+    
+    UIButton *moveUpButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [moveUpButton setTitle:@"move up" forState:UIControlStateNormal];
+    [moveUpButton addTarget:self action:@selector(moveUp) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:moveUpButton];
+    moveUpButton.frame = CGRectMake(600, 0, 100, 44);
+    
+    UIButton *moveDownButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [moveDownButton setTitle:@"move down" forState:UIControlStateNormal];
+    [moveDownButton addTarget:self action:@selector(moveDown) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:moveDownButton];
+    moveDownButton.frame = CGRectMake(600, 50, 100, 44);
+}
+
+- (void) scaleUpCupcake
+{
+    self.scale += 0.1;
+    [self redraw];
+}
+
+- (void) scaleDownCupcake
+{
+    self.scale += -.1;
+    [self redraw];
 }
 
 - (void) rotate
 {
-//    CGContextRotateCTM(CGLayerGetContext(self.layerRef), M_PI/2);
-    UIGraphicsBeginImageContextWithOptions([self.view bounds].size, YES, 0);
+    self.angle += M_PI/6;
+    [self redraw];
+}
+- (void) moveLeft
+{
+    self.currentPoint = CGPointMake(self.currentPoint.x - 20, self.currentPoint.y);
 
-    CGContextDrawLayerAtPoint(UIGraphicsGetCurrentContext(), CGPointMake(100, 300), self.layerRef);
-    
-    self.view.layer.contents = (id) UIGraphicsGetImageFromCurrentImageContext().CGImage;
-    UIGraphicsEndImageContext();
+    [self redraw];
+}
+- (void) moveRight
+{
+    self.currentPoint = CGPointMake(self.currentPoint.x + 20, self.currentPoint.y);
+
+    [self redraw];
+}
+
+- (void) moveUp
+{
+    self.currentPoint = CGPointMake(self.currentPoint.x, self.currentPoint.y - 20);
+    [self redraw];
 
 }
+
+- (void) moveDown
+{
+    self.currentPoint = CGPointMake(self.currentPoint.x, self.currentPoint.y + 20);
+    [self redraw];
+
+}
+
+
+- (void) redraw
+{
+    UIGraphicsBeginImageContextWithOptions([self.cupcakeView bounds].size, NO, 0);
+    [self.points addObject:
+     [NSValue valueWithCGPoint:self.currentPoint]];
+    
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    path.lineWidth = 10;
+    [path moveToPoint:self.startingPoint];
+    
+    for (NSValue *value in self.points) {
+        CGPoint point = [value CGPointValue];
+        [path addLineToPoint:point];
+    }
+    [[UIColor redColor] setStroke];
+    [path stroke];
+    
+    
+    CGLayerRef layerRef =  CGLayerCreateWithContext(UIGraphicsGetCurrentContext(), CGSizeMake(300 * self.scale, 300 * self.scale), NULL);
+    UIGraphicsPushContext(CGLayerGetContext(layerRef));
+    CGContextScaleCTM(UIGraphicsGetCurrentContext(), self.scale, self.scale);
+    CGContextTranslateCTM(CGLayerGetContext(layerRef), 150, 150);
+    
+    CGContextRotateCTM(UIGraphicsGetCurrentContext(), self.angle);
+    CGContextTranslateCTM(CGLayerGetContext(layerRef), -150, -150);
+    [self drawCupcake];
+    UIGraphicsPopContext();
+    
+    
+    CGContextDrawLayerAtPoint(UIGraphicsGetCurrentContext(), CGPointMake(self.currentPoint.x - self.scale * 150, self.currentPoint.y - self.scale * 150), layerRef);
+    
+    
+    
+
+    self.cupcakeView.layer.contents = (id) UIGraphicsGetImageFromCurrentImageContext().CGImage;
+    UIGraphicsEndImageContext();
+}
+
 
 
 
@@ -653,10 +759,6 @@
     }
 
 }
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end
