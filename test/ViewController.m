@@ -20,9 +20,9 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (void)viewDidAppear:(BOOL)animated
 {
-    [super viewDidLoad];
+    [super viewDidAppear:animated];
     self.view.frame = [UIScreen mainScreen].bounds;
     self.view.backgroundColor = [UIColor blackColor];
     self.angle = 0;
@@ -30,9 +30,11 @@
     self.translation = 0;
     self.startingPoint = CGPointMake(150, 150);
     self.currentPoint = self.startingPoint;
-    self.cupcakeView = [[UIView alloc] initWithFrame:CGRectMake(0, 100, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame) - 100)];
+    self.cupcakeView = [[UIView alloc] initWithFrame:CGRectMake(0, 150, CGRectGetWidth([UIScreen mainScreen].bounds), CGRectGetHeight( [UIScreen mainScreen].bounds) - 150)];
     self.cupcakeView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.cupcakeView];
+    
+    
     self.points = [NSMutableArray arrayWithObject:[NSValue valueWithCGPoint:self.startingPoint]];
     [self redraw];
     
@@ -40,43 +42,43 @@
     [button setTitle:@"rotate" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(rotate) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
-    button.frame = CGRectMake(25, 0, 200, 50);
+    button.frame = CGRectMake(25, 20, 100, 50);
 
     UIButton *scaleButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [scaleButton setTitle:@"scale up" forState:UIControlStateNormal];
     [scaleButton addTarget:self action:@selector(scaleUpCupcake) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:scaleButton];
-    scaleButton.frame = CGRectMake(250, 0, 100, 44);
+    scaleButton.frame = CGRectMake(250, 20, 100, 44);
     
     UIButton *scaleDownButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [scaleDownButton setTitle:@"scale down" forState:UIControlStateNormal];
     [scaleDownButton addTarget:self action:@selector(scaleDownCupcake) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:scaleDownButton];
-    scaleDownButton.frame = CGRectMake(250, 50, 100, 44);
+    scaleDownButton.frame = CGRectMake(250, 70, 100, 44);
     
     UIButton *moveLeftButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [moveLeftButton setTitle:@"move left" forState:UIControlStateNormal];
     [moveLeftButton addTarget:self action:@selector(moveLeft) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:moveLeftButton];
-    moveLeftButton.frame = CGRectMake(475, 0, 100, 44);
+    moveLeftButton.frame = CGRectMake(475, 20, 100, 44);
     
     UIButton *moveRightButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [moveRightButton setTitle:@"move right" forState:UIControlStateNormal];
     [moveRightButton addTarget:self action:@selector(moveRight) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:moveRightButton];
-    moveRightButton.frame = CGRectMake(475, 50, 100, 44);
+    moveRightButton.frame = CGRectMake(475, 70, 100, 44);
     
     UIButton *moveUpButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [moveUpButton setTitle:@"move up" forState:UIControlStateNormal];
     [moveUpButton addTarget:self action:@selector(moveUp) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:moveUpButton];
-    moveUpButton.frame = CGRectMake(600, 0, 100, 44);
+    moveUpButton.frame = CGRectMake(600, 20, 100, 44);
     
     UIButton *moveDownButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [moveDownButton setTitle:@"move down" forState:UIControlStateNormal];
     [moveDownButton addTarget:self action:@selector(moveDown) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:moveDownButton];
-    moveDownButton.frame = CGRectMake(600, 50, 100, 44);
+    moveDownButton.frame = CGRectMake(600, 70, 100, 44);
 }
 
 - (void) scaleUpCupcake
@@ -126,7 +128,7 @@
 
 - (void) redraw
 {
-    UIGraphicsBeginImageContextWithOptions([self.cupcakeView bounds].size, NO, 0);
+    UIGraphicsBeginImageContextWithOptions(self.cupcakeView.frame.size, NO, 0);
     [self.points addObject:
      [NSValue valueWithCGPoint:self.currentPoint]];
     
@@ -160,6 +162,7 @@
 
     self.cupcakeView.layer.contents = (id) UIGraphicsGetImageFromCurrentImageContext().CGImage;
     UIGraphicsEndImageContext();
+
 }
 
 
