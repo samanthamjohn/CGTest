@@ -31,12 +31,12 @@
     }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    PDDebugger *debugger = [PDDebugger defaultInstance];
-    
-    [debugger connectToURL:[NSURL URLWithString:@"ws://localhost:9000/device"]];
-    [debugger enableViewHierarchyDebugging];
-    [debugger enableNetworkTrafficDebugging];
-    [debugger enableCoreDataDebugging];
+//    PDDebugger *debugger = [PDDebugger defaultInstance];
+//    
+//    [debugger connectToURL:[NSURL URLWithString:@"ws://localhost:9000/device"]];
+//    [debugger enableViewHierarchyDebugging];
+//    [debugger enableNetworkTrafficDebugging];
+//    [debugger enableCoreDataDebugging];
     return YES;
 }
 
